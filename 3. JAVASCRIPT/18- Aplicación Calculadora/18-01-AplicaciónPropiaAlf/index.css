@@ -1,0 +1,18 @@
+div.Header{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+div.container-number{
+    margin-bottom: 3;
+}
+
+
+button.buttonOpereitor{
+    margin-bottom: 20px;
+    padding: 5px;
+    border-bottom: 10%;
+    color: brown;
+    box-shadow: 20px;
+}

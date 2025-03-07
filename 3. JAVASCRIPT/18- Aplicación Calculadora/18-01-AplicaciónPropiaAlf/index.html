@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Aplicación Calculadora</title>
+</head>
+<body>
+    <div class="Header">
+        <h1>Calculadora </h1>
+        <form id="calculator">
+            <div class="container-number">
+                <label for="number1">Number 1</label>
+                <input type="number" class='numbers'
+                placeholder="Escribe un numero" id='number1'>
+            </div>
+
+            <div class="container-number">
+                <label for="number2">Number 2</label>
+                <input type="number" class='numbers'
+                placeholder="Escribe un numero" id='number2'>
+            </div>
+        </form>
+
+        <button class="buttonOpereitor" onclick='Sumar()'>Sumar</button>
+        <div id='resultado'></div>
+
+    </div>
+    <script src="JS Sumar/Sumar.js"></script>
+</body>
+</html>
